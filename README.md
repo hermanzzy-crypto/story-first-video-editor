@@ -10,6 +10,11 @@ git clone https://github.com/hermanzzy-crypto/story-first-video-editor.git ~/.co
 
 Restart Codex to refresh skill discovery, then invoke `$story-first-video-editor` or describe a story-led talking-head edit. The `SKILL.md` is the entrypoint. The references are read only when needed.
 
+## Visual styles and companion tools
+
+- [15 visual style instructions](references/visual-styles.md): scene-specific prompts for explainers, evidence, character moments, data, and transitions. Pick one main direction and at most one alternative for a new video, then preview it with the actual script and footage.
+- [Companion Skill installation](references/tooling-install.md): verified Codex instructions for `ffmpeg-skill` and Remotion Agent Skills, plus the optional `mg-styles-15` reference library and transcription setup. None is a hard dependency of this editorial skill.
+
 ## Use it for
 
 - Editing an interview or spoken essay into a short creator video with meaningful on-screen explanation.
