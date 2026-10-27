@@ -2,6 +2,8 @@
 
 Use these original prompts as a starting point for a specific spoken video. They are editorial recipes, not copies of the upstream `mg-styles-15` prompts or a claim that its examples are bundled here. The [upstream gallery](https://github.com/Vincentwei1021/mg-styles-15) is optional visual reference.
 
+![15 visual styles in one menu](../assets/style-menu-15.svg)
+
 ## Fill in the shot before choosing a style
 
 For each shot, specify `{spoken point}`, `{viewer must understand}`, `{real asset or evidence}`, `{aspect ratio}`, `{safe area}`, `{duration}`, and `{brand palette}`. Preserve names, numbers, quotes, and the actual sequence of events. Keep captions readable over the motion and label illustrated reconstructions. Use one dominant visual grammar for a section; a secondary style can mark a genuine shift in story.
