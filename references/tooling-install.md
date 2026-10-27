@@ -1,6 +1,6 @@
 # Companion tools and installation
 
-`story-first-video-editor` is an editorial Skill. It works with a chosen video editor, FFmpeg, or a programmatic renderer. The following tools are optional; install only the ones needed for the current project. Commands below target Codex and were checked against the linked maintainers' documentation. Restart Codex after installing Skills so discovery refreshes.
+`story-first-video-editor` is an editorial Skill. It works with a chosen video editor, FFmpeg, or a programmatic renderer. The only universal prerequisite Skill is `story-first-video-editor` itself. For the repository's local automated editing route, install `ffmpeg-skill` before editing. Add Remotion Agent Skills only when the video uses Remotion. The `mg-styles-15` gallery and transcription adapter are not prerequisites. Commands below target Codex and were checked against the linked maintainers' documentation. Restart Codex after installing Skills so discovery refreshes.
 
 ## FFmpeg execution: `ffmpeg-skill`
 
