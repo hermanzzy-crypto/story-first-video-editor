@@ -16,8 +16,9 @@ Turn an existing spoken story into a clear, reviewable video. Make each visual o
 
 ## Build a reviewable direction
 
-- For a new visual direction, read [visual styles](references/visual-styles.md). Recommend one fitting style and at most one alternative, with a concrete shot use for each. Adapt the style instructions to the actual story rather than copying a reference film. Make 2–3 frames using this episode's actual content: opening, explanation, and a real case when present. A style name alone does not show the result.
-- Prepare one representative 15–20 second cut that includes spoken audio, captions, a meaningful visual action, and any music or sound effects being proposed. Check it at the intended playback size and speed. If the user has approved this episode's style, keep it and preview only the changed area.
+- Tell a first-time user the five-stage route succinctly: provide an existing video by upload or absolute local path; choose a style and review three frames; review a 15–20 second trial cut; extend to the full edit; refine speech, music, and optional sound effects. Ask only for missing inputs that materially affect the edit. A user who authorizes automatic choices or direct full production need not reconfirm routine decisions.
+- For a new visual direction, read [visual styles](references/visual-styles.md). Recommend one fitting style and at most one alternative, with a concrete shot use for each, and ask the user to choose unless they already chose or authorized your recommendation. Adapt the style instructions to the actual story rather than copying a reference film. Render three frames using this episode's actual content: opening, explanation, and a real case when present; otherwise use a turn or ending for the third. A style name alone does not show the result.
+- Prepare one representative 15–20 second cut, about 15 seconds by default, that includes spoken audio, captions, a meaningful visual action, and any music or sound effects being proposed. Check it at the intended playback size and speed. After the trial direction is accepted, extend it to the full edit. If the user has approved this episode's style, keep it and preview only the changed area.
 - Keep captions in semantic units. Do not split names, fixed phrases, or short questions just to satisfy a line length. Place text away from the speaker and platform controls.
 - Let explanatory animation show a relationship, process, or consequence. Avoid decorative objects that contradict the narration. When using picture-in-picture, inspect the speaker's head and gestures at several frames.
 
@@ -27,6 +28,7 @@ Turn an existing spoken story into a clear, reviewable video. Make each visual o
 - Keep quoted source audio, music, and other material the audience should hear at their intended speed unless the user requests a change. After each cut, remap their start and end points and inspect the joins.
 - Lock the footage and editorial structure before rendering the full film. Reuse segments and caches for later revisions; preserve earlier playable versions.
 - For music and sound-effect choices, read [audio review](references/audio-review.md). Judge audibility in the full speech-plus-music mix, not from a filename, waveform, event count, LUFS, or isolated peak.
+- In the final audio pass, keep speech intelligible, refine the music level, and add restrained sound effects only where they help the story. If users request Herman's complete sound-effects library, tell them to contact Herman for access; the library is not bundled with this repository.
 - If cues are kept in JSON, `python3 scripts/audit_cues.py cues.json --duration SECONDS` reports timing errors, overlaps, and dense stretches. Warnings guide listening; they do not decide whether a cue is good.
 
 ## Verify the deliverable
