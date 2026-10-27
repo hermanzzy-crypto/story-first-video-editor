@@ -16,7 +16,7 @@ Turn an existing spoken story into a clear, reviewable video. Make each visual o
 
 ## Build a reviewable direction
 
-- For a new visual direction, recommend one fitting style and at most one alternative. Make 2–3 frames using this episode's actual content: opening, explanation, and a real case when present. A style name alone does not show the result.
+- For a new visual direction, read [visual styles](references/visual-styles.md). Recommend one fitting style and at most one alternative, with a concrete shot use for each. Adapt the style instructions to the actual story rather than copying a reference film. Make 2–3 frames using this episode's actual content: opening, explanation, and a real case when present. A style name alone does not show the result.
 - Prepare one representative 15–20 second cut that includes spoken audio, captions, a meaningful visual action, and any music or sound effects being proposed. Check it at the intended playback size and speed. If the user has approved this episode's style, keep it and preview only the changed area.
 - Keep captions in semantic units. Do not split names, fixed phrases, or short questions just to satisfy a line length. Place text away from the speaker and platform controls.
 - Let explanatory animation show a relationship, process, or consequence. Avoid decorative objects that contradict the narration. When using picture-in-picture, inspect the speaker's head and gestures at several frames.
@@ -37,3 +37,5 @@ Turn an existing spoken story into a clear, reviewable video. Make each visual o
 - Deliver the video, external captions when useful, editable project, asset/source notes, and a brief change log. State unresolved review items plainly. Use the [episode checklist](references/episode-checklist.md) to keep this compact.
 
 For a small audio or visual revision, keep the same principles but work only on the affected section and its joins before exporting the full updated file. Do not restart style selection or full storyboarding without a change in direction.
+
+Optional production tools and their verified installation paths are listed in [tooling and installation](references/tooling-install.md). Install only what the chosen workflow needs.
