@@ -36,7 +36,7 @@ npx skills add remotion-dev/skills
 ## 如何使用：从已录视频到成片
 
 ```mermaid
-flowchart LR
+flowchart TD
     A["① 提供视频"] --> B["② 选风格 · 3 张图"]
     B --> C["③ 15–20 秒试剪"]
     C --> D["④ 剪辑全片"]
