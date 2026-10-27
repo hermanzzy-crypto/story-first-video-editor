@@ -1,0 +1,4 @@
+interface:
+  display_name: "Story-First Video Editor"
+  short_description: "Edit spoken videos with story, audio, and review gates"
+  default_prompt: "Use $story-first-video-editor to turn my talking-head footage into a clear, reviewable video."
